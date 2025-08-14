@@ -1,0 +1,102 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  background: linear-gradient(135deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #25d366;
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-btn:hover {
+  background: #128c7e;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .hero {
+    min-height: 60vh;
+    padding: 3rem 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .whatsapp-btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .hero {
+    min-height: 70vh;
+    padding: 4rem 3rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .whatsapp-btn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* Large Desktop styles */
+@media (min-width: 1200px) {
+  .hero h1 {
+    font-size: 3.2rem;
+  }
+  
+  .hero p {
+    font-size: 1.3rem;
+  }
+} 
