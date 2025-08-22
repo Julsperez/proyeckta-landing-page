@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proyeckta-landing-page/static/css/main.3a4bd89c.css",
+    "main.js": "/proyeckta-landing-page/static/js/main.057e6191.js",
+    "index.html": "/proyeckta-landing-page/index.html",
+    "main.3a4bd89c.css.map": "/proyeckta-landing-page/static/css/main.3a4bd89c.css.map",
+    "main.057e6191.js.map": "/proyeckta-landing-page/static/js/main.057e6191.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a4bd89c.css",
+    "static/js/main.057e6191.js"
+  ]
+}
