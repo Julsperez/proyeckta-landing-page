@@ -1,0 +1,35 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  z-index: 1000;
+  line-height: 1.4;
+}
+
+.footer p {
+  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .footer {
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .footer {
+    padding: 1rem 3rem;
+    font-size: 0.95rem;
+  }
+} 

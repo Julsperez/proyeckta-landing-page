@@ -1,0 +1,1 @@
+// Aquí puedes definir tipos globales o interfaces para props de componentes si lo necesitas. 
